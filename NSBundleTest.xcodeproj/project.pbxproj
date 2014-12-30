@@ -15,7 +15,7 @@
 		2127220A1A44AA2800C455E2 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 212722081A44AA2800C455E2 /* FirstViewController.m */; };
 		2127220B1A44AA2800C455E2 /* FirstViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 212722091A44AA2800C455E2 /* FirstViewController~ipad.xib */; };
 		2127220F1A44AAE600C455E2 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2127220D1A44AAE600C455E2 /* SecondViewController.m */; };
-		212722101A44AAE600C455E2 /* SecondViewController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2127220E1A44AAE600C455E2 /* SecondViewController~iphone.xib */; };
+		212722101A44AAE600C455E2 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2127220E1A44AAE600C455E2 /* SecondViewController.xib */; };
 		212722121A44AB8D00C455E2 /* SecondViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 212722111A44AB8D00C455E2 /* SecondViewController~ipad.xib */; };
 		21E60A961A5229310079A8E1 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21E60A951A5229310079A8E1 /* FirstViewController.xib */; };
 /* End PBXBuildFile section */
@@ -46,7 +46,7 @@
 		212722091A44AA2800C455E2 /* FirstViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "FirstViewController~ipad.xib"; sourceTree = "<group>"; };
 		2127220C1A44AAE600C455E2 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		2127220D1A44AAE600C455E2 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		2127220E1A44AAE600C455E2 /* SecondViewController~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "SecondViewController~iphone.xib"; sourceTree = "<group>"; };
+		2127220E1A44AAE600C455E2 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 		212722111A44AB8D00C455E2 /* SecondViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "SecondViewController~ipad.xib"; sourceTree = "<group>"; };
 		21E60A951A5229310079A8E1 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,7 +99,7 @@
 				212722081A44AA2800C455E2 /* FirstViewController.m */,
 				2127220C1A44AAE600C455E2 /* SecondViewController.h */,
 				2127220D1A44AAE600C455E2 /* SecondViewController.m */,
-				2127220E1A44AAE600C455E2 /* SecondViewController~iphone.xib */,
+				2127220E1A44AAE600C455E2 /* SecondViewController.xib */,
 				212722111A44AB8D00C455E2 /* SecondViewController~ipad.xib */,
 				21E60A951A5229310079A8E1 /* FirstViewController.xib */,
 				212722091A44AA2800C455E2 /* FirstViewController~ipad.xib */,
@@ -214,8 +214,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				212722121A44AB8D00C455E2 /* SecondViewController~ipad.xib in Resources */,
-				212722101A44AAE600C455E2 /* SecondViewController~iphone.xib in Resources */,
 				21E60A961A5229310079A8E1 /* FirstViewController.xib in Resources */,
+				212722101A44AAE600C455E2 /* SecondViewController.xib in Resources */,
 				212721F21A44A93500C455E2 /* LaunchScreen.xib in Resources */,
 				2127220B1A44AA2800C455E2 /* FirstViewController~ipad.xib in Resources */,
 				212721EF1A44A93500C455E2 /* Images.xcassets in Resources */,
